@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e3f2fd;
+}
+.container {
+  width: 400px;
+  margin: 5rem auto;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+input {
+  width: 70%;
+  padding: 0.5rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  background: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
